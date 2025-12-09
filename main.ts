@@ -5,7 +5,7 @@
  * @fileoverview Prints all numbers between the start and the end.
  */
 
-let start: number = parseInt(
+const start: number = parseInt(
   prompt("Choose a starting value.") || "0",
 );
 let end: number = parseInt(
